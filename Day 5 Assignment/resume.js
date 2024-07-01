@@ -92,4 +92,12 @@ let text = "";
 for (let x of resume[key].age) {
  text += x; 
 }
- console.log(text);
+  console.log(text);
+
+ //for each
+ for(var i = 0; i < resume.length; i++) {
+    var obj = resume[i];
+ }
+ resume.forEach(function(obj) { console.log(obj.name); });
+
+
