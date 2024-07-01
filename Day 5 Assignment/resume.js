@@ -98,6 +98,8 @@ for (let x of resume[key].age) {
  for(var i = 0; i < resume.length; i++) {
     var obj = resume[i];
  }
- resume.forEach(function(obj) { console.log(obj.name); });
+ resume.forEach(function(obj) { 
+     console.log(obj.name); 
+ });
 
 
